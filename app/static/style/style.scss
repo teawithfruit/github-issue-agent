@@ -1,2 +1,45 @@
-body { margin: 0; padding: 0; }
 html, body { height: 100%; width: 100%; overflow: hidden; }
+
+.layout_1 { margin: 20px; }
+.layout_1, table, .textarea { font-family: Verdana, Geneva, sans-serif; font-size: 13px; }
+.layout_1 ul.questions { list-style-type: none; margin: 0; padding: 0; }
+.layout_1 ul.questions li.q { margin: 10px 0; }
+.layout_1 label.label { display: block; margin: 0 0 5px 0; font-weight:bold; }
+.layout_1 table.answers { width: 100%; _width: 97%; border-collapse: collapse; }
+.layout_1 table.answers { vertical-align: top; }
+.layout_1 table.answers td { padding: 2px; vertical-align: top; }
+.layout_1 table.answers td.a_td { width: 25px; }
+
+.layout_1 .text { border: 1px solid #CCC; padding: 4px; font-size: 13px; color: #000000; width: 98.5%;
+  background-color: #ffffff;
+  background:-webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#fff));
+  background:-moz-linear-gradient(top,#f8f8f8,#fff);
+}
+
+.layout_1 .textarea { border: 1px solid #CCC; padding: 4px; font-size: 13px; color: #000000; width: 98.5%;
+  background:-webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#fff));
+  background:-moz-linear-gradient(top,#f8f8f8,#fff);
+  background-color: #ffffff;
+}
+
+.layout_1 .select { 
+  border:1px solid #CCCCCC; padding: 3px; font-size: 13px; color: #000000; margin: 0; width: 100%; _width: 97%;
+  background-color: #ffffff;
+  background:-webkit-gradient(linear,0 0,0 100%,from(#f8f8f8),to(#fff));
+  background:-moz-linear-gradient(top,#f8f8f8,#fff);
+}
+
+.layout_1 .btn { 
+  border: 1px solid #cccccc; cursor: pointer; font-weight: normal; font-size: 13px; padding: 6px; color: #444; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; 
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), color-stop(0.5, #FAFAFA), color-stop(0.5, #E5E5E5), to(#F9F9F9)); 
+  background: -moz-linear-gradient(top, #FAFAFA, #FAFAFA 50%, #E5E5E5 50%, #F9F9F9);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FAFAFA', endColorstr='#E5E5E5');
+}
+
+.layout_1 .btn:hover {  
+  background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), color-stop(0.5, #EDEDED), color-stop(0.5, #D9D9D9), to(#EDEDED)); 
+  background: -moz-linear-gradient(top, #EDEDED, #EDEDED 50%, #D9D9D9 50%, #EDEDED);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#E3326E', endColorstr='#D9D9D9');
+}
+
+pre { font-size:3px; line-height:2px; overflow: hidden; }
