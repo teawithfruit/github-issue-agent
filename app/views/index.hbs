@@ -1,40 +1,9 @@
-<div style="width:500px" class="layout_1">
-  <form method="post" action="">
-
-    <ul class="questions">
-      <li class="q">
-        <label class="label" for="name">Name</label>
-        <input type="text" class="text" name="name" id="name" value="" />
-      </li>
-
-      <li class="q">
-        <label class="label" for="email">E-Mail</label>
-        <input type="text" class="text" name="email" id="email" value="" />
-      </li>
-
-      <li class="q">
-        <label class="label" for="title">Subject</label>
-        <input type="text" class="text" name="title" id="title" value="" />
-      </li>
-
-      <li class="q">
-        <label class="label" for="text">Issue</label>
-        <textarea class="textarea" name="text" id="text" style="height:80px"></textarea>
-      </li>
-
-      <li class="q">
-        <label class="label" for="captcha">Captcha</label>
-        <input type="text" class="text" name="captcha" id="captcha" value="" />
-      </li>
-
-      <li class="q">
-        <pre id="captcha_ascii"></pre>
-      </li>
-
-      <li class="q">
-        <input type="button" class="btn" name="save" id="save" value="Send" />
-      </li>
-    </ul>
-
-  </form>
-</div>
+<form name="form_issue">
+  <input type="text" name="name" id="name" /><br />
+  <input type="text" name="email" id="email" /><br />
+  <input type="text" name="title" id="title" /><br />
+  <textarea name="text" id="text"></textarea><br />
+  <input type="text" name="captcha" id="captcha" /><br />
+  <pre style="font-size:3px;line-height:2px;" id="captcha_ascii"></pre><br />
+  <input type="button" id="save" value="Eintragen" />
+</form>
