@@ -1,7 +1,7 @@
 {
   "name": "github-issue-agent",
   "version": "0.0.1",
-  "description": "A simple skeleton including koa, handlebars, sass and nodemon.",
+  "description": "A Node.js Project to use the Github issue infrastructure with a token.",
   "main": "gulpfile.js",
   "keywords": [
     "github",
